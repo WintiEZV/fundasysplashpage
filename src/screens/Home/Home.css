@@ -1,0 +1,92 @@
+.hero {
+  padding: 0;
+  margin: 0;
+  background: rgb(0, 82, 128);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 82, 128, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-size: auto;
+  background-position: calc(50% + 80px) 50%;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #005280;
+  font-size: 90px;
+  font-weight: 500;
+}
+.description-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.description1 {
+  font-size: 32px;
+  color: #005280;
+  font-weight: 400;
+}
+.footer {
+  font-size: 20px;
+  color: #005280;
+  font-weight: 400;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 50px;
+}
+.email {
+  font-size: 20px;
+  color: #005280;
+  font-weight: 400;
+  position: fixed;
+  bottom: 0px;
+  padding: 50px;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover,
+a:focus {
+  color: red;
+}
+
+.email-intro {
+  font-size: 14px;
+}
+
+.email-text {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 60px;
+  }
+  .description1 {
+    font-size: 22px;
+  }
+  .footer {
+    font-size: 18px;
+    padding: 25px;
+  }
+  .email {
+    font-size: 20px;
+    color: #005280;
+    font-weight: 400;
+    position: fixed;
+    bottom: 50px;
+    padding: 50px;
+  }
+}
